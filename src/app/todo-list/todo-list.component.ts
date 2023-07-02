@@ -12,6 +12,7 @@ export class TodoListComponent implements OnInit {
     { id: 2, title: 'Read a book', completed: true },
     { id: 3, title: 'Buy egg', completed: false },
     { id: 4, title: 'Read a file', completed: true },
+    { id: 5, title: 'Read a file', completed: true },
   ];
 
   // Add more functions here for managing TODO items (e.g., add, delete, mark as completed).
