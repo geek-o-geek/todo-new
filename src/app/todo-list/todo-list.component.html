@@ -1,0 +1,8 @@
+  <div class="container">
+    <h1>Todo List</h1>
+    <div *ngFor="let todo of todos" class="todo-item">
+      <input type="checkbox" [checked]="todo.completed" />
+      <label>{{ todo.title }}</label>
+      <button>Delete</button>
+    </div>
+  </div>
